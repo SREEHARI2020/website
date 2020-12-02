@@ -120,7 +120,6 @@ ul li{
   text-decoration: none;
 }
 .navbar{
-
   width:100%;
   background: #0099CC;
 	color: #FFF;
@@ -134,7 +133,24 @@ ul li{
   position: fixed;
   top: 20px;
   right:20px;
-  height: 100px;
-  width:100px;
+  height: 60px;
+  width:60px;
 
+}
+.menu ul{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.menu {
+  position: fixed;
+  top:20;
+  right:20;
+  opacity: 0.9;
+}
+
+ul li{
+  line-height: 70px;
+  text-align: left;
 }
