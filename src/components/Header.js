@@ -5,7 +5,7 @@ export const Header = () => {
     return (
         
         <header className="head">
-            AppName
+           
             
             <Navigation/>
         </header>

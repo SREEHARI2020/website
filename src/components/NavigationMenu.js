@@ -5,16 +5,17 @@ import { Link } from 'react-router-dom'
 export const NavigationMenu = ({set}) => {
     return (
         <>
-             <div className="menu">The menu</div>
-            <div>
+             <div className="menu"><h1>The menu</h1>
+
+           
            <ul>
                <li>
-                   <Link to='/' onClick={()=>set(false)}>Home
+                   <Link className="link" to='/' onClick={()=>set(false)}>Home
                     
                    </Link>
                </li>
                <li>
-                   <Link to='/about'
+                   <Link to='/about' className="link"
                     onClick={()=>set(false)}>About
                    
                    </Link>

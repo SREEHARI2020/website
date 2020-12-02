@@ -10,14 +10,16 @@ export const Navigation = () => {
    
 
     return (
-        <>
-        <nav>
-            <FontAwesomeIcon onClick={()=>setShowMenu(!showMenu)}  icon={faBars}/>
+        
+        <div className="navbar">
+            <h1>Best Sellers</h1>
+        <nav >
+            <FontAwesomeIcon className="nav-icon" onClick={()=>setShowMenu(!showMenu)}  icon={faBars}/>
             
         </nav>
       
      {showMenu?<NavigationMenu set={setShowMenu}/>:null }
-    
-        </>
+    </div>
+        
     )
 }

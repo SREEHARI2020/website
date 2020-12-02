@@ -12,15 +12,15 @@ export const Product = () => {
     let product=useAxiosGet(url)
 
     return (
-        <div>
+        <div className="card-single">
 
 
            {product.data?
          <>
-         <div>{product.data.name}</div>
-         <div> <img src={product.data.images} /></div>
-         <div>{product.data.price}</div>
-         <div>{product.data.description}</div>
+         <div className='card-heading'><h1>{product.data.name}</h1></div>
+         <div> <img className="card-image" src={product.data.images} /></div>
+         <div className="card-price">{product.data.price}</div>
+         <div className="card-price">{product.data.description}</div>
         
          </>
         :<div><Loader /></div>

@@ -28,7 +28,7 @@ if(products.data){
    
     return (
         <div>
-            <h1>Best Sellers</h1>
+            
 
 
             {content}
