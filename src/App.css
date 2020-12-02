@@ -10,7 +10,7 @@
 .foot{
   --tw-bg-opacity: 1;
 background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
-position: absolute;
+position: fixed;
 bottom: 0px;
 text-align: center;
 width:100%;
