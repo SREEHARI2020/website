@@ -170,7 +170,7 @@ ul li{
 
 @keyframes menuanimation{
   0%{
-    transform:translateX(-1000px);
+    transform:translateX(-500px);
   }
   100%{
     transform:translateX(0px);
