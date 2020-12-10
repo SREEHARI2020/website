@@ -5,7 +5,7 @@ import { NavigationMenu } from './NavigationMenu';
 
 export const Navigation = () => {
    const [showMenu,setShowMenu]=useState(false);
-   let menu
+
 
    
 

@@ -132,7 +132,7 @@ ul li{
   background: #242424;
 	color: #FFF;
 	height: 100px;
-  padding-left: 18px;
+
   display: flex;
   justify-content: space-between;
   letter-spacing: 5px;
@@ -185,4 +185,5 @@ ul li{
 .navbar h1{
   font-size: 40px;
   font-weight: bold;
+  padding-left: 18px;
 }
